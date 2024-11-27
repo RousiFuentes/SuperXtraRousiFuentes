@@ -1,0 +1,14 @@
+.primerdiv{
+    background-color: pink;
+    border: 2px solid black;
+
+    padding: 70px;
+    padding-top: 0px;
+}
+
+.segundodiv{
+    background-color: paleturquoise;
+    border: 2px solid black;
+
+    margin-top: 10px;
+}

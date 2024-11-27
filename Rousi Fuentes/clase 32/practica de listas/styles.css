@@ -1,0 +1,22 @@
+ul{
+    text-align: center;
+    background-color:pink;
+}
+
+ul li{
+    list-style-image: url(melody-sanrio-png.png);
+}
+
+ul{
+    /*Shorthand de bordes*/
+    /*borde:2px dotted red*/
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: palevioletred;
+}
+
+
+ol{
+    list-style-type:upper-roman;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica de formularios</title>
+    </head>
+    <body>
+        <h1>Mi practica de formularios</h1>
+        <form>
+            <label for="name">Nombre:</label>
+            <!--Mi primer input-->
+            <input type="text" id="name" placeholder="Coloca tu Nombre">
+            <br>
+            <br>
+
+            <!--input de-->
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" value="Apellido de rousi">
+            <br>
+            <br>
+
+            <!--input de contrasena-->
+            <label for="passaword">Contraseña:</label>
+            <input type="password" id="passaword" required>
+            <br>
+            <br>
+
+            <h2>Completa el formulario para solicitar informacion</h2>
+            <form>
+                <label>productos: <i style="color: red;">(obligatorio)</i></label>
+                <br>
+                <input list="Consultas">
+                <datalist id="Consultas">
+                  <option value="Consultas Generales">
+                  <option value="Prestamo de Auto ">
+                  <option value="Prestamo Hipotecario">
+                  <option value="Prestamo Personal">
+                  <option value="Tarjata de Credito">
+                </datalist>
+                <br>
+                <br>
+
+                <label>Nombre Completo: <i style="color: red;">(obligatorio) </i></label>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+
+
+                <label>Correo Electronico: <i style="color: red;">(obligatorio) </i></label>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+
+                <label>Numero De Telefono: <i style="color: red;">(obligatorio) </i></label>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+                
+
+            </form>
+            
+              </form>
+
+
+            <input type="submit">
+        </form>
+    </body>
+</html>

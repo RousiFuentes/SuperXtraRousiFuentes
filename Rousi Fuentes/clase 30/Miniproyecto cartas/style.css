@@ -1,0 +1,33 @@
+/*Configuracion de mi contenedor de cartas*/
+.contenidobr-cartas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* configuracion de mi carta*/
+.cartas{
+    width: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black (0, 0, 0, 0, 2.0);
+
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Configuracion de la imagen de mi carta*/
+.cartas img{
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/*configuracion de la imagen de mi cartas*/
+.cartas h2, .cartas p{
+    text-align: center;
+}
